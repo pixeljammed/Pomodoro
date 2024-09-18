@@ -1,6 +1,6 @@
 # A pomodoro timer app, written in SwiftUI
 
------
+
 
 ## **Progress to Date**
 
@@ -47,7 +47,8 @@ Discussions with potential users, including Henry, have also provided insight in
 I have made one initial prototype - which is just focusing on creating a basic timer with real-world synchronization in a window for now. A preliminary design has been made using procreate, a sketching app, exploring how best to layout time intervals, the clock, user preferences menu, and notifications for breaks and work sessions. 
 Customization options is something I'm looking to mainly expand on, such as variable time blocks and custom alerts.
 
------
+
+
 ## **Housekeeping**
 
 #### Storage and Code Management:
@@ -67,7 +68,7 @@ References are being tracked using **Zotero** and occasionally **MS Word's Refer
 #### Development Environment:
 I have fully set up my dev environment on **Xcode**  on my MacBook. I've installed required dependencies and packages, configuring Git for versioning control
 
----
+
 
 ## **Analysis**
 
