@@ -1,4 +1,4 @@
-Pomodoro Timer Project / App Development: Project Analysis Document
+# A pomodoro timer app, written in SwiftUI
 
 -----
 
