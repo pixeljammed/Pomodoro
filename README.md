@@ -2,8 +2,6 @@
 
 
 
-## **Progress to Date**
-
 #### Project Title:
 Pomodoro study timer app for macOS
 
