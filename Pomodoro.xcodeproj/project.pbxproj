@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D742EE82C9DC06900B5C3C2 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D742EE72C9DC06900B5C3C2 /* TimerManager.swift */; };
+		9D742EEA2C9DC0E500B5C3C2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D742EE92C9DC0E500B5C3C2 /* SettingsView.swift */; };
+		9D742EEC2C9DC11900B5C3C2 /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D742EEB2C9DC11900B5C3C2 /* GeneralSettingsView.swift */; };
+		9D742EEE2C9DC12D00B5C3C2 /* AdvancedSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D742EED2C9DC12D00B5C3C2 /* AdvancedSettingsView.swift */; };
 		9D783F792C9A4D39004833AD /* PomodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D783F782C9A4D39004833AD /* PomodoroApp.swift */; };
 		9D783F7B2C9A4D39004833AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D783F7A2C9A4D39004833AD /* ContentView.swift */; };
 		9D783F7D2C9A4D3C004833AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D783F7C2C9A4D3C004833AD /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D742EE72C9DC06900B5C3C2 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		9D742EE92C9DC0E500B5C3C2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9D742EEB2C9DC11900B5C3C2 /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsView.swift; sourceTree = "<group>"; };
+		9D742EED2C9DC12D00B5C3C2 /* AdvancedSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedSettingsView.swift; sourceTree = "<group>"; };
 		9D783F752C9A4D39004833AD /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D783F782C9A4D39004833AD /* PomodoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroApp.swift; sourceTree = "<group>"; };
 		9D783F7A2C9A4D39004833AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +105,10 @@
 			children = (
 				9D783F782C9A4D39004833AD /* PomodoroApp.swift */,
 				9D783F7A2C9A4D39004833AD /* ContentView.swift */,
+				9D742EE72C9DC06900B5C3C2 /* TimerManager.swift */,
+				9D742EE92C9DC0E500B5C3C2 /* SettingsView.swift */,
+				9D742EEB2C9DC11900B5C3C2 /* GeneralSettingsView.swift */,
+				9D742EED2C9DC12D00B5C3C2 /* AdvancedSettingsView.swift */,
 				9D783F7C2C9A4D3C004833AD /* Assets.xcassets */,
 				9D783F812C9A4D3C004833AD /* Pomodoro.entitlements */,
 				9D783F7E2C9A4D3C004833AD /* Preview Content */,
@@ -260,7 +272,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D783F7B2C9A4D39004833AD /* ContentView.swift in Sources */,
+				9D742EEC2C9DC11900B5C3C2 /* GeneralSettingsView.swift in Sources */,
+				9D742EEA2C9DC0E500B5C3C2 /* SettingsView.swift in Sources */,
 				9D783F792C9A4D39004833AD /* PomodoroApp.swift in Sources */,
+				9D742EE82C9DC06900B5C3C2 /* TimerManager.swift in Sources */,
+				9D742EEE2C9DC12D00B5C3C2 /* AdvancedSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

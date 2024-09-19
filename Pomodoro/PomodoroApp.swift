@@ -8,10 +8,21 @@
 import SwiftUI
 
 @main
-struct PomodoroApp: App {
+struct MyApp: App {
+    @StateObject private var timerManager = TimerManager()
+    
     var body: some Scene {
+        
+        // MAIN //
         WindowGroup {
             ContentView()
+                .environmentObject(timerManager)
+        }
+        .windowStyle(HiddenTitleBarWindowStyle())
+        
+        // SETTINGS //
+        Settings {
+                    SettingsView()
         }
     }
 }
